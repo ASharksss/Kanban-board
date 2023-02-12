@@ -1,0 +1,25 @@
+.input_search{
+    background-color:#F5F5F5;
+    display: flex;
+    align-items: center;
+
+    border-radius: 20px;
+    border:1px solid #F5F5F5;
+    margin-left: 10px;
+}
+
+.input_search img{
+    margin-right: 5px;
+    width: 18px;
+    height:18px;
+    margin-left: 10px;
+}
+
+.input_search input{
+    width:300px;
+    height:38px;
+    background-color:#F5F5F5;
+    border:none;
+    font-size: 12px;
+
+}

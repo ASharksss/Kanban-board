@@ -1,0 +1,32 @@
+.messages{
+    display: block;
+    position: absolute;
+    padding-right: 30px;
+    width: 420px;
+    max-height: 800px;
+    z-index: 10;
+
+    top:50px;
+    right: 20px;
+}
+
+.notice {
+    transform: scale(0);
+    z-index: 11;
+}
+
+.notice.active {
+    transform: scale(1);
+}
+
+#ch__toggle:checked~.messages {
+    top:50px;
+    visibility: visible;
+}
+#ch__toggle{
+    visibility: hidden;
+    position: absolute;
+}
+.ch__btn{
+    position: relative;
+}

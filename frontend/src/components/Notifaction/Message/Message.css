@@ -1,0 +1,87 @@
+body{
+    font-family: "Century Gothic";
+}
+.message_container{
+    width: 100%;
+    height: auto;
+    border-radius:20px;
+    margin-bottom: 10px;
+    background-color:#F5F5F5;
+    padding: 1px 15px 1px 15px;
+    text-align: inherit;
+    position: relative;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+}
+
+.message_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #DBDBDB;
+    margin-bottom: -10px;
+
+
+}
+
+.n_circle{
+   position: absolute;
+    top: 24px;
+    left: -13px;
+    background-color:#FFA500 ;
+}
+
+.application_name{
+    margin-left: 20px;
+}
+
+
+.message_header>div{
+    display: flex;
+    align-items: center;
+}
+
+
+.message_header img{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.message_body{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.message_title{
+    margin-bottom: -10px;
+}
+
+.check{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 95px;
+    height: 25px;
+
+    padding: 10px;
+    margin: -7px 0 10px 0;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #F5F5F5;
+
+    border-radius: 10px;
+    border: 1px solid #c07100;
+    background-color: #FFA500;
+
+    cursor: pointer;
+}
+
+.check:hover{
+    background-color: #c07100;
+}
+
+
+

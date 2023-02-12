@@ -1,0 +1,77 @@
+
+body{
+  font-family: "Century Gothic";
+}
+.task{
+  background-color: #fff;
+  width: 90%;
+  height: 177px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+
+  border-radius: 12px;
+  position: relative;
+}
+
+.header{
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.task_title{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 13px;
+  margin-top: 18px;
+  font-size: 16px;
+  color: #1D1E33 ;
+}
+
+.btn_more{
+  width: 16px;
+  height: 19px;
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.more_inf{
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin: 0px 12px;
+  color:#787486;
+}
+
+.date{
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin: -10px -13px;
+  color:#787486;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+}
+
+.user img{
+  position: absolute;
+  bottom: 15px;
+  left:35px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+}
+
+.userName{
+  position: absolute;
+  bottom: 5px;
+  left:70px;
+  font-size: 12px;
+}
